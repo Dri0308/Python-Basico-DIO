@@ -11,6 +11,19 @@ print(materias_da_semana[3])
 print(materias_da_semana[-2])
 print(materias_da_semana[ 2:4])
 
-SKZ_Members = ["Changbin", "Felix", "Hunjin", "I.N", "Bang Chan", "Lee Know", "Seungmin", "Han"]
-for indice, SKZ_Members in enumerate(SKZ_Members):
-    print(f'{indice} : {SKZ_Members}')
+lista = [1,2,3,4,8]
+for indice, lista in enumerate(lista):
+    print({indice}, {lista})
+
+lista = [0,2,4,6]
+lista.reverse()
+print(lista)
+
+lista = ["Hyunjin", "Seungmin", "Changbin", "Felix", "Han", "Lee Know", "I.N", "Bang Chan"]
+lista.sort(key=lambda x: len(x))
+print(len(lista))
+
+danceracha = ("Lee Know", "Hyunjin", "Felix",)
+print(len(danceracha))
+print(danceracha.count("Hyunjin"))
+print(danceracha.index("Felix"))
